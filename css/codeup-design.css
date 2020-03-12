@@ -6,9 +6,9 @@ body {
 
 h1  {
 
-    font-family: Anton;
+    font-family: Anton, sans-serif;
     text-align: center;
-    marginq: 0 32px;
+    margin: 0 32px;
     padding-top: 1em;
 }
 
@@ -17,6 +17,11 @@ h2 {
     color: black;
     text-align: center;
     margin: 30px;
+}
+
+h2.location-header {
+    font-family: Anton, sans-serif;
+
 }
 
 
@@ -47,7 +52,76 @@ a {
     font-family: 'Abel', sans-serif;
 }
 
+/*.services-icons {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
 
+/*}*/
+
+/*.fa-circle {*/
+/*    font-size: 18px;*/
+/*}*/
+
+.services-dot {
+
+    display: grid;
+    grid-template-columns: 110px 110px;
+    grid-template-rows: 110px 110px;
+    justify-content: center;
+    grid-gap: 25px;
+
+}
+
+.design-dot {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #E6563B;
+
+
+}
+
+.develop-dot {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #DEA03D;
+}
+
+.support-dot {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #7CB06C;
+}
+
+.host-dot {
+    font-family: Anton;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #00ABA9;
+
+}
 
 
 
