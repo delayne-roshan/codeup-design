@@ -8,7 +8,7 @@ h1  {
 
     font-family: Anton, sans-serif;
     text-align: center;
-    margin: 0 32px;
+    margin: 0 18px;
     padding-top: 1em;
 }
 
@@ -21,8 +21,10 @@ h2 {
 
 h2.location-header {
     font-family: Anton, sans-serif;
-
+    margin: 30px 0;
 }
+
+
 
 
 a {
@@ -69,7 +71,6 @@ a {
     grid-template-rows: 110px 110px;
     justify-content: center;
     grid-gap: 25px;
-
 }
 
 .design-dot {
@@ -82,8 +83,6 @@ a {
     border: 6px solid white;
     border-radius: 50%;
     background: #E6563B;
-
-
 }
 
 .develop-dot {
@@ -111,7 +110,7 @@ a {
 }
 
 .host-dot {
-    font-family: Anton;
+    font-family: Anton, sans-serif;
     font-size: 1.25em;
     display: flex;
     justify-content: center;
@@ -120,8 +119,98 @@ a {
     border: 6px solid white;
     border-radius: 50%;
     background: #00ABA9;
-
 }
+
+
+h6 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+h6.featured {
+    margin-top: 10px 0 0 0;
+    text-align: left;
+}
+
+.apple {
+    display: block;
+    width: 85%;
+    margin: auto;
+    border: 6px solid #e6e6e6;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+
+
+.ddot1 {
+    height: 18px;
+    width: 18px;
+    font-family: Anton, sans-serif;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    border-radius: 50%;
+    background: #E6563B;
+}
+
+.ddot2 {
+    height: 18px;
+    width: 18px;
+    font-family: Anton, sans-serif;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    border-radius: 50%;
+    background: #DEA03D;
+}
+
+.sdot3 {
+    height: 18px;
+    width: 18px;
+    font-family: Anton, sans-serif;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    border-radius: 50%;
+    background: #7CB06C;
+}
+
+.hdot4 {
+    height: 18px;
+    width: 18px;
+    font-family: Anton, sans-serif;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    border-radius: 50%;
+    background: #00ABA9;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
