@@ -39,16 +39,18 @@
 
         <!--MEDIUM HEADING DISPLAY-->
         <!--logo-->
-    <div class="d-none d-md-block">
-        <nav class="nav bg-white" id="pokemon">
+    <div class=" d-none d-md-block">
+        <nav id="pokemon" class="nav bg-white mt-5">
 
-                <a class="navbar-brand col-6 d-flex align-items-center" href="#">
-                    <img src="images/logo.png" alt="logo" height="105px" width="105px" class="rounded-circle">
-                    <h2>codeup design</h2></a>
+            <div class="logo2 justify-content-center">
+<!--                <div class="col-12 col-md-8"></div>-->
+                <img class="logo-top" src="images/logo.png" alt="logo" width="105px" height="105px">
+            </div>
+                    <h2 class="company-name">codeup design</h2>
 
-                    <ul class="nav row align-items-center">
+                    <ul class="nav ml-5">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">SERVICES<span class="nav-only"></span></a></li>
+                            <a class="nav-link" href="#">SERVICES</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">WORK</a></li>
                         <li class="nav-item">
@@ -69,16 +71,32 @@
     <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
 
 <!--Location Header-->
-    <h2 class="location-header">FROM PARK CITY, UTAH</h2>
+    <h2 class="company-city location-header">FROM PARK CITY, UTAH</h2>
 
 
-        <!--Circle Icons-->
-        <div class="services-dot">
+        <!--SMALL DISPLAY Circle Icons-->
+        <div class="services-dot-sm d-md-none">
             <div class="dot design-dot">DESIGN</div>
             <div class="dot develop-dot">DEVELOP</div>
             <div class="dot support-dot">SUPPORT</div>
             <div class="dot host-dot">HOST</div>
     </div>
+
+<!--                MEDIUM DISPLAY CIRCLE ICONS-->
+
+
+
+        <div id="md-service-icons" class="services-dot-medium d-none d-sm-none d-md-block">
+            <div class="row row-col-md-1">
+                <div class="col dot design-dot-med">DESIGN</div>
+                <div class="col dot develop-dot-med">DEVELOP</div>
+                <div class="col dot support-dot-med">SUPPORT</div>
+                <div class="col dot host-dot-med">HOST</div>
+            </div>
+        </div>
+
+
+
 
         <!--bottom portion-->
         <h6>SELECTED WORK</h6>

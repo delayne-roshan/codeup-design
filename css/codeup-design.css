@@ -1,6 +1,6 @@
 body {
     background: #f0f0f0;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -64,7 +64,7 @@ a {
 /*    font-size: 18px;*/
 /*}*/
 
-.services-dot {
+.services-dot-sm {
 
     display: grid;
     grid-template-columns: 110px 110px;
@@ -215,7 +215,59 @@ li {
     height: 3em;
 }
 
+h2.company-name {
+    margin: 0;
+}
 
+/*MEDIUM SERVICE DOTS*/
 
+#md-service-icons{
 
+}
 
+.design-dot-med {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #E6563B;
+}
+.develop-dot-med {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #DEA03D;
+}
+
+.support-dot-med {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #7CB06C;
+}
+
+.host-dot-med {
+    font-family: Anton, sans-serif;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+    background: #00ABA9;
+}
