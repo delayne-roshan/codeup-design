@@ -47,7 +47,7 @@ a {
 
 
 
-.navbar-nav {
+.navbar2-nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -210,12 +210,10 @@ li {
 
 }
 
-
-
-
-
-
-
+/*MEDIUM HEADING*/
+#pokemon {
+    height: 3em;
+}
 
 
 
