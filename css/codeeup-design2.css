@@ -4,11 +4,20 @@ body {
     padding: 0;
 }
 
+p {
+    margin-left: 10px;
+}
+
 li {
     list-style: none;
-    padding-left: 16px;
+    padding-left: 10px;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
+}
+
+h1  {
+    font-family: 'Anton';
+    /*font-size: 64px;*/
 }
 
 .container {
@@ -25,9 +34,12 @@ li {
     z-index: 1000;
 }
 
-.main-header {
+.company-header {
     margin-top: 50px;
     font-family: 'Abel', sans-serif;
     font-size: 50px;
 }
 
+.city-header {
+    font-family: 'Anton', sans-serif;
+}
