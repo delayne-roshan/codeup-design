@@ -1,0 +1,19 @@
+body {
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar{
+    height: 100px;
+}
+
+
+.logo {
+    position: absolute;
+    z-index: 1000;
+}
