@@ -4,12 +4,16 @@ body {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     padding-left: 0;
     padding-right: 0;
 }
 .navbar{
-    height: 100px;
+    height: 90px;
 }
 
 
@@ -17,3 +21,10 @@ body {
     position: absolute;
     z-index: 1000;
 }
+
+.main-header {
+    margin-top: 50px;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+}
+
