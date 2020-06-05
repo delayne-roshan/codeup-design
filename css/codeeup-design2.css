@@ -20,6 +20,22 @@ h1  {
     /*font-size: 64px;*/
 }
 
+circle {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    border: solid white 9px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Anton;
+    font-size: 32px;
+}
+
 .container {
     padding-left: 0;
     padding-right: 0;
@@ -40,6 +56,30 @@ h1  {
     font-size: 50px;
 }
 
+
 .city-header {
     font-family: 'Anton', sans-serif;
+}
+
+
+.design{
+    background-color:#E6563B;
+
+}
+
+
+.develop{
+    background-color: #DEA03D;
+
+}
+
+
+.support{
+    background-color: #7CB06C;
+
+}
+
+
+.host{
+    background-color: #00ABA9;
 }
