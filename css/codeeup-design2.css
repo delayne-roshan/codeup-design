@@ -1,11 +1,12 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
 p {
     margin-left: 10px;
+
 }
 
 li {
@@ -20,8 +21,15 @@ h1  {
     /*font-size: 64px;*/
 }
 
-circle {
+h5 {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+
+}
+
+circle.big {
     display: inline-block;
+    margin: 10px;
     height: 170px;
     width: 170px;
     border: solid white 9px;
@@ -62,24 +70,77 @@ circle {
 }
 
 
-.design{
+#design{
     background-color:#E6563B;
 
 }
 
 
-.develop{
+#develop{
     background-color: #DEA03D;
 
 }
 
 
-.support{
+#support{
     background-color: #7CB06C;
 
 }
 
 
-.host{
+#host{
     background-color: #00ABA9;
+}
+
+.selected-work {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.apple-ipad {
+    border: solid #e6e6e6 8px;
+    border-radius: 2%;
+}
+
+li.small {
+
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding-left: 0;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Anton;
+    font-size: 15px;
+}
+
+.featured {
+    float: left;
+}
+
+
+#ho{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #00ABA9;
+}
+
+#su{
+    margin-left: 5px;
+    background-color: #7CB06C;
+}
+
+#dv{
+    margin-left: 5px;
+    background-color: #DEA03D;
+}
+
+#ds {
+    margin-left: 5px;
+    background-color: #E6563B;
 }
