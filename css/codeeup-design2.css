@@ -1,102 +1,67 @@
-/*body {*/
-/*    background-color: #f0f0f0;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
-/*p {*/
-/*    margin-left: 10px;*/
-
-/*}*/
-
-/*li {*/
-/*    list-style: none;*/
-/*    padding-left: 10px;*/
-/*    font-family: 'Abel', sans-serif;*/
-/*    font-size: 20px;*/
-/*}*/
-
-/*h1  {*/
-/*    font-family: 'Anton';*/
-/*    !*font-size: 64px;*!*/
-/*}*/
-
-/*h5 {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*    font-size: 20px;*/
-
-/*}*/
-
-/*circle.big {*/
-/*    display: inline-block;*/
-/*    margin: 10px;*/
-/*    height: 170px;*/
-/*    width: 170px;*/
-/*    border: solid white 9px;*/
-/*    border-radius: 50%;*/
-/*    text-align: center;*/
-/*    vertical-align: middle;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    color: white;*/
-/*    font-family: Anton;*/
-/*    font-size: 32px;*/
-/*}*/
-
-/*a {*/
-/*    font-family: 'Abel', sans-serif;*/
-/*    font-size: 12px;*/
-/*}*/
-
-/*.container {*/
-/*    padding-left: 0;*/
-/*    padding-right: 0;*/
-/*}*/
-/*.navbar.top-header {*/
-/*    height: 90px;*/
-/*}*/
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 
 
-/*.logo {*/
-/*    position: absolute;*/
-/*    z-index: 1000;*/
-/*}*/
 
+circle.big {
+    display: inline-block;
+    margin: 10px;
+    height: 170px;
+    width: 170px;
+    border: solid white 9px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Anton;
+    font-size: 32px;
+}
 
+.nav-item{
+    font-size: 12px;
+}
 /*.company-header {*/
 /*    margin-top: 50px;*/
 /*    font-family: 'Abel', sans-serif;*/
 /*    font-size: 50px;*/
 /*}*/
 
+.main-header {
+    font-family: 'Anton', sans-serif;
+}
 
-/*.city-header {*/
-/*    font-family: 'Anton', sans-serif;*/
-/*}*/
-
-
-/*#design{*/
-/*    background-color:#E6563B;*/
-
-/*}*/
+.city-header {
+    font-family: 'Anton', sans-serif;
+}
 
 
-/*#develop{*/
-/*    background-color: #DEA03D;*/
+#design{
+    background-color:#E6563B;
 
-/*}*/
-
-
-/*#support{*/
-/*    background-color: #7CB06C;*/
-
-/*}*/
+}
 
 
-/*#host{*/
-/*    background-color: #00ABA9;*/
-/*}*/
+#develop{
+    background-color: #DEA03D;
+
+}
+
+
+#support{
+    background-color: #7CB06C;
+
+}
+
+
+#host{
+    background-color: #00ABA9;
+}
 
 /*.selected-work {*/
 /*    font-family: 'Abel', sans-serif;*/
